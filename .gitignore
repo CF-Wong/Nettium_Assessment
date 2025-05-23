@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Nettium_Test.Persistence/Databases/Nettium_Test.db-shm
+/Nettium_Test.Persistence/Databases/Nettium_Test.db-wal

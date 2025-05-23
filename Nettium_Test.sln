@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F393C35F-21F3-4709-A418-83ED7A8FCC3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8236CBAD-21D1-4469-8307-409868A7336E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{662C109E-9391-4C13-B450-369089167AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nettium_Test.Domain", "Nettium_Test.Domain\Nettium_Test.Domain.csproj", "{277A77D1-6C76-44EB-83FB-57D2E8314217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nettium_Test.Persistence", "Nettium_Test.Persistence\Nettium_Test.Persistence.csproj", "{88BAC422-9BFF-4DD2-96E3-4942F73FAC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nettium_Test.Application", "Nettium_Test.Application\Nettium_Test.Application.csproj", "{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nettium_Test.WebApi", "Nettium_Test.WebApi\Nettium_Test.WebApi.csproj", "{FF86AA57-B108-4EFF-BB47-67A965E1420D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{277A77D1-6C76-44EB-83FB-57D2E8314217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277A77D1-6C76-44EB-83FB-57D2E8314217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277A77D1-6C76-44EB-83FB-57D2E8314217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277A77D1-6C76-44EB-83FB-57D2E8314217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BAC422-9BFF-4DD2-96E3-4942F73FAC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BAC422-9BFF-4DD2-96E3-4942F73FAC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BAC422-9BFF-4DD2-96E3-4942F73FAC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BAC422-9BFF-4DD2-96E3-4942F73FAC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF86AA57-B108-4EFF-BB47-67A965E1420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF86AA57-B108-4EFF-BB47-67A965E1420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF86AA57-B108-4EFF-BB47-67A965E1420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF86AA57-B108-4EFF-BB47-67A965E1420D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{277A77D1-6C76-44EB-83FB-57D2E8314217} = {F393C35F-21F3-4709-A418-83ED7A8FCC3D}
+		{88BAC422-9BFF-4DD2-96E3-4942F73FAC67} = {8236CBAD-21D1-4469-8307-409868A7336E}
+		{C108AE1C-2D8E-4A3D-8EB3-304C260DAD36} = {F393C35F-21F3-4709-A418-83ED7A8FCC3D}
+		{FF86AA57-B108-4EFF-BB47-67A965E1420D} = {662C109E-9391-4C13-B450-369089167AF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF21E26-FCD2-41BE-A984-C76A7CB7F5BA}
+	EndGlobalSection
+EndGlobal
