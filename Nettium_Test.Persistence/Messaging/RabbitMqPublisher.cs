@@ -16,7 +16,7 @@ namespace Nettium_Test.Persistence.Messaging
                 HostName = configuration["RabbitMQ:HostName"],
                 UserName = configuration["RabbitMQ:UserName"],
                 Password = configuration["RabbitMQ:Password"],
-                Port = 5672
+                Port = int.Parse(configuration["RabbitMQ:Port"])
             };
         }
 
