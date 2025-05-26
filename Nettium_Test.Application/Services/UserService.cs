@@ -66,6 +66,7 @@ namespace Nettium_Test.Application.Services
 
             user.EmailAddress = dto.EmailAddress;
             user.IsActive = dto.IsActive;
+            user.UpdatedOn = DateTime.Now;
 
             await _userRepository.UpdateAsync(user);
             CacheUserAsync(id, user);
